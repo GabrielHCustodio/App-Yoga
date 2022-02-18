@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    width: 414px;
+    height: 896px;
+    margin: 10px auto;
+    background-color: #E5E5E5;
+}
+
+#meditacao {
+    width: 311.05px;
+    height: 239px;
+    margin-top: 142px;
+    margin-left: 51px;
+}
+
+.container-bullets {
+    margin-top: 104px;
+    margin-left: 175px;
+}
+
+.container-bullets:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container-bullets .bullet{
+    align-items: center;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #323232;
+}
+
+.container-bullets .bullet:nth-child(2) , .bullet:nth-child(3){
+    margin-left: 20px;
+}
+
+h4 {
+    margin: 81px 44px 0 43px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
+}
+
+#button{
+    width: 173px;
+    height: 46px;
+    background: #323232;
+    margin: 62px 120px 121px 121px;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    font-size: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 2s;
+}
+
+#button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translateY(15px) ;
+}
+
